@@ -63,18 +63,18 @@ p{
     vertical-align: middle;
 }
 .menu{
-    list-style: none;
+   background:white;
     font-family: sans-serif;
     position: fixed;
-    top:10px;
-    right:30px;
+    top:0px;
+    width: 100%;
     z-index:10;
     cursor: pointer;
+    margin-top: 0px;
 }
 .links{
-    float:left;
+    display: inline;
     color:black;
-    padding-top:5px;
     padding-right: 9px;
     padding-left: 9px;
     padding-bottom: 5px;
@@ -82,11 +82,15 @@ p{
     font-size: 20px;
 }
 .links:hover{
-  background-color:dodgerblue;  
+  background-color:dodgerblue; 
+    text-decoration: underline;
+    font-size: 25px;    
 }
 
 a{
     text-decoration: none;
+    color: crimson;
+    text-shadow:2px 2px gray;
 }
 
 html{
@@ -97,3 +101,25 @@ html{
   color: darkturquoise;  
 }
 
+#writings a{
+    text-shadow: none !important;
+    text-decoration:underline !important;
+    color: deepskyblue !important;
+}
+
+#contact{
+    background-color: firebrick;
+}
+.contact_1 a{
+    color:white;
+    text-shadow: none;
+}
+
+h3{
+    display: inline;
+}
+
+#contact iframe{
+    width: 100%;
+    
+}
